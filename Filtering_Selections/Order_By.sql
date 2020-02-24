@@ -7,3 +7,6 @@
 
 
 select * from test order by price;
+
+-- To order the output in descending order use desc, For example:
+select * from test order by price desc;
