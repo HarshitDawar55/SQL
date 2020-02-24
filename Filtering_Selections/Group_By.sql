@@ -3,6 +3,7 @@
 -- * is used to select everything from the table;
 -- "group by Department_Id", means it will filter the output and display all the outputs based on all the different values in the Department_Id column.
 -- Basically, group by will make the groups of a rows present in a table based on the common values present in a column of a table;
+-- It is the most important function used in SQL.
 
 -- syntax is:
 
