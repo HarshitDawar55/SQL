@@ -3,7 +3,6 @@
 -- * is used to select everything from the table;
 -- "order by price", means it will filter the output and display all the outputs based on the values in the price column.
 -- Automatically it will filter in ascending order.
-
 -- syntax is:
 
 
