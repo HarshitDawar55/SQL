@@ -1,12 +1,11 @@
--- order by function is used to order the final output based on the values of a particular column of a table, either ascending or descending;
+-- group by function is used to group the final output based on the unique values of a particular column of a table;
 -- I have used test table name for example;
 -- * is used to select everything from the table;
--- "order by price", means it will filter the output and display all the outputs based on the values in the price column.
--- Automatically it will filter in ascending order.
+-- "group by Department_Id", means it will filter the output and display all the outputs based on all the different values in the Department_Id column.
+-- Basically, group by will make the groups of a rows present in a table based on the common values present in a column of a table;
+
 -- syntax is:
 
 
-select * from test order by price;
+select * from test group by Department_Id;
 
--- To order the output in descending order use desc, For example:
-select * from test order by price desc;
