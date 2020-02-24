@@ -1,0 +1,15 @@
+1)  "char" data type is used to store string.
+
+2) It has fixed length.
+
+3) If we provide data less than the specified length, even then it will add spaces to the right of the data to make it of complete length.
+
+4) For example,
+
+char(5) will allocate 5 bytes memory, and will always use 5 bytes to store data. 
+
+5) It is faster than "varchar" data type.
+
+6) Use it only when you are sure that the fixed length data will be entered.
+
+7) Otherwise, use Varchar dataType.
