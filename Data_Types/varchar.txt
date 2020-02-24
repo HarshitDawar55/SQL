@@ -1,0 +1,17 @@
+1)  "varchar" data type is used to store string.
+
+2) It has variable length.
+
+3) If we provide data less than the specified length, it will use memory space corresponding to the length of the data.
+
+4) For example,
+
+varchar(5) will not always allocate 5 bytes memory, it allocates memory based on the data size.
+
+5) But, data greator than the specified length will be entered only till the point where the allocated memory space allows.
+
+For Example, if we declare varchar(10) and enter a string of 15 characters, then 10 characters of the string will be entered and rest will be trimmed off.
+
+6) Use it only whenever you want.
+
+7) Slower than char data-type.
