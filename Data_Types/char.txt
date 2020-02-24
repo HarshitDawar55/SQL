@@ -1,15 +1,17 @@
-1)  "char" data type is used to store string.
+1)  "varchar" data type is used to store string.
 
-2) It has fixed length.
+2) It has variable length.
 
-3) If we provide data less than the specified length, even then it will add spaces to the right of the data to make it of complete length.
+3) If we provide data less than the specified length, it will use memory space corresponding to the length of the data.
 
 4) For example,
 
-char(5) will allocate 5 bytes memory, and will always use 5 bytes to store data. 
+varchar(5) will not always allocate 5 bytes memory, it allocates memory based on the data size.
 
-5) It is faster than "varchar" data type.
+5) But, data greator than the specified length will be entered only till the point where the allocated memory space allows.
 
-6) Use it only when you are sure that the fixed length data will be entered.
+For Example, if we declare varchar(10) and enter a string of 15 characters, then 10 characters of the string will be entered and rest will be trimmed off.
 
-7) Otherwise, use Varchar dataType.
+6) Use it only whenever you want.
+
+7) Slower than cahr data-type.
