@@ -39,6 +39,7 @@
 
 - This method of running code in sql from files is very useful.
 - after opeining mysql, run this command "source [complete filename with extension]".
+- [] in above command are just place holders, do not include them in your command.
 
 # LICENSE
 
