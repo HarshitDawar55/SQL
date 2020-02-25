@@ -38,7 +38,7 @@
 # Instructions for running .sql files
 
 - This method of running code in sql from files is very useful.
-- after opeining mysql, run this command "source <complete filename with extension>".
+- after opeining mysql, run this command "source [complete filename with extension]".
 
 # LICENSE
 
