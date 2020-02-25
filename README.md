@@ -35,7 +35,10 @@
   - If you face any error, google it, they are easily available, as there are only 3 errors which are very common which one can get after running mysql.
 
 
+# Instructions for running .sql files
 
+- This method of running code in sql from files is very useful.
+- after opeining mysql, run this command "source <complete filename with extension>".
 
 # LICENSE
 
