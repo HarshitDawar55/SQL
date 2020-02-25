@@ -23,6 +23,20 @@
 - So, learn without any problem.
 
 
+# Instructions for installing SQL
+
+- For windows
+  -  Visit and download the required product according to your system architecture: https://dev.mysql.com/downloads/mysql/
+
+- For MAC
+  -  Visit and download according to your system architecture: https://dev.mysql.com/downloads/mysql/
+
+  - After installing a temporary root user password will be there, so make sure to save it.
+  - If you face any error, google it, they are easily available, as there are only 3 errors which are very common which one can get after running mysql.
+
+
+
+
 # LICENSE
 
 
